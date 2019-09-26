@@ -1,0 +1,44 @@
+.postsContainer{
+    text-align:center;  
+}
+
+.singlePost{
+    width:70%;
+    margin:40px auto;
+}
+
+.titleHolder{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+    border-bottom:3px solid #007a68;
+}
+
+.singlePostTitle{
+    width:80%;
+    color:#013c5c;
+    font-weight:bolder;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.contentHolder{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#013c5c;
+    border:3px solid #007a68;
+    box-shadow: 10px 10px 5px grey;
+}
+
+@media only screen and (max-width: 559px) {
+
+    .singlePostTitle{
+        width:95%;
+        font-size:20px;
+    }
+
+    .singlePostContent{
+        font-size:14.5px;
+    }
+}

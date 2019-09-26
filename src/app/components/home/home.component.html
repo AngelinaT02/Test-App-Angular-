@@ -1,0 +1,25 @@
+<div class="change" [class.changeStyleToGreen]="checkForGreen" [class.changeStyleToYellow]="checkForYellow" [class.changeStyleToWhite]="checkForWhite">
+    <div class="buttons">
+        <button type="button" (click)="onClickForWhite()" class="btnColorWhite"></button>
+        <button type="button" (click)="onClickForYellow()"class="btnColorYellow"></button>
+        <button type="button" (click)="onClickForGreen()" class="btnColorGreen"></button>
+    </div>
+
+    <div class="imageHolder">
+        <img src="assets/test_images/colors.jpeg" class="homepageColors img-fluid">
+    </div>   
+
+    <div class="homepageText"> 
+        <p class="quotes">If at first, the idea is not absurd, then there is no hope for it. Imagination is everything. It is the preview of life’s coming attractions. Logic will get you from A to B. Imagination will take you everywhere.</p>
+    </div>
+
+    <div class="bottomLinks">
+        <button class="btn btn-outline-danger" id="btnPosts">
+            <a href="posts" class="postsLink">POSTS</a>
+        </button>
+
+        <button class="btn btn-outline-danger" id="btnGallery">
+            <a href="gallery" class="galleryLink">GALLERY</a>
+        </button>
+    </div>
+</div>

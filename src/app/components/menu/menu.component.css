@@ -1,0 +1,30 @@
+.header{
+    padding: 0;
+    color:#fff;
+    background:#013c5c;
+    text-align:center;
+    letter-spacing:1.5px;
+}
+
+header a{
+    color:#fff;
+    font-size:16px;
+    font-style:italic;
+    text-decoration:none;
+}
+
+nav{
+    padding-bottom:5px;
+}
+
+@media only screen and (max-width: 559px) {
+
+    .header h1{
+        font-size:32px;
+    }
+
+    .header a{
+        font-size:14px;
+    }
+    
+}

@@ -1,0 +1,88 @@
+.change{
+    height:100%;
+    background:#fff;
+}
+
+.buttons{
+    float:right;
+    width:100%;
+}
+
+.btnColorWhite{
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-right:15px;
+    border-radius:50%;
+    background:white;
+    float: inline-end;
+}
+
+.btnColorYellow{
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-right:15px;
+    border-radius:50%;
+    background:#fce303;
+    float: inline-end;
+}
+
+.btnColorGreen{
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-right:15px;
+    border-radius:50%;
+    background:#007a68;
+    float: inline-end;
+}
+
+.bottomLinks{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.homeLink, .galleryLink{
+    color:#013c5c;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#btnHome{
+    width:80px;
+    margin-right:20px;
+}
+
+#btnHome, #btnGallery{
+    border:2px solid;
+}
+
+.changeStyleToGreen{
+    background:#007a68;
+    height:100%;
+}
+
+.changeStyleToYellow{
+    background:#fce303;;
+}
+
+.changeStyleToWhite{
+    background:#fff;
+}
+
+@media only screen and (max-width: 559px) {
+
+    .btnColorWhite, .btnColorYellow, .btnColorGreen{
+        width:25x;
+        height:35px;
+    }
+
+    .homeLink, .galleryLink{
+        font-size:13.5px;
+    }
+}
+
+

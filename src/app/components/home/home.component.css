@@ -1,0 +1,125 @@
+.change{
+    height:100%;
+    background:#fff;
+}
+
+.buttons{
+    float:right;
+    width:100%;
+}
+
+.btnColorWhite{
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-right:15px;
+    border-radius:50%;
+    background:#fff;
+    float: inline-end;
+}
+
+.btnColorYellow{
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-right:15px;
+    border-radius:50%;
+    background:#fce303;
+    float: inline-end;
+}
+
+.btnColorGreen{
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    margin-right:15px;
+    border-radius:50%;
+    background:#007a68;
+    float: inline-end;
+}
+
+.imageHolder{
+    text-align:center;
+}
+
+.homepageColors{
+    width:650px;
+    height:450px;
+    margin-top:60px;
+    border: 4px solid #d1040b;
+}
+
+.homepageText{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.quotes{
+    width:42%;
+    font-size:18px;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:45px;
+    color:#013c5c;
+    line-height:1.2; 
+    text-align:center;
+    letter-spacing:1px;
+}
+
+.bottomLinks{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.postsLink, .galleryLink{
+    color:#013c5c;
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#btnPosts{
+    width:80px;
+    margin-right:20px;
+}
+
+#btnPosts, #btnGallery{
+    border:2px solid;
+}
+
+.changeStyleToGreen{
+    background:#007a68;
+}
+
+.changeStyleToYellow{
+    background:#fce303;;
+}
+
+.changeStyleToWhite{
+    background:#fff;
+}
+
+@media only screen and (max-width: 559px) {
+
+    .btnColorWhite, .btnColorYellow, .btnColorGreen{
+        width:25x;
+        height:35px;
+    }
+
+    .homepageColors{
+        width:450px;
+        height:350px;
+    }
+
+    .quotes{
+        width:75%;
+        font-size:16px;
+    }
+
+    .postsLink, .galleryLink{
+        font-size:13.5px;
+    }
+}
+

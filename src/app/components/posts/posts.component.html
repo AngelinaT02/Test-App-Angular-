@@ -1,0 +1,22 @@
+<div class="change" [class.changeStyleToGreen]="checkForGreen" [class.changeStyleToYellow]="checkForYellow" [class.changeStyleToWhite]="checkForWhite">
+    <div class="buttons">
+        <button type="button" (click)="onClickForWhite()" class="btnColorWhite"></button>
+        <button type="button" (click)="onClickForYellow()"class="btnColorYellow"></button>
+        <button type="button" (click)="onClickForGreen()" class="btnColorGreen"></button>
+    </div>
+
+    <app-single-post *ngFor="let post of posts" [post]="post" class="container">
+    </app-single-post>
+
+    <div class="bottomLinks">
+        <button class="btn btn-outline-danger" id="btnHome">
+            <a href="home" class="homeLink">HOME</a>
+        </button>
+        
+        <button class="btn btn-outline-danger" id="btnGallery">
+            <a href="gallery" class="galleryLink">GALLERY</a>
+        </button>
+    </div>
+</div>
+    
+
